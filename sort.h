@@ -14,8 +14,8 @@
 
 typedef enum boolean_n
 {
-    false = 0;
-    true = 1;
+    false = 0,
+    true
 } boolean_n;
 /**
  * struct listint_s - Doubly linked list node
