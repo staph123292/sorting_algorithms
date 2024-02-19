@@ -38,6 +38,6 @@ void bubble_sorting(int *array, size_t size)
 				bubbly = false;
 			}
 		}
-		len--;
+		;
 	}
 }
