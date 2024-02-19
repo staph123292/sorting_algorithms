@@ -9,7 +9,7 @@
  *
 */
 
-void bubble_sorting(int *array, size_t size)
+void bubble_sort(int *array, size_t size)
 {
 	int swap;
 	size_t i, j;
