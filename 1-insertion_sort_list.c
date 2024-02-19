@@ -54,7 +54,7 @@ void insertion_sort_list(listint_t **list)
 		{
 			if (y->prev->n > y->n)
 			{
-				swap(y->prev, y);
+				swap_nodes(y->prev, y);
 				if (!y->prev)
 				{
 					*list = y;
