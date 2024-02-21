@@ -63,9 +63,9 @@ size_t lomuto_partition(int *array, size_t size, ssize_t down, ssize_t top)
 
 void quicksort(int *array, size_t size, ssize_t down, ssize_t top)
 {
-	if (down < high)
+	if (down < top)
 	{
-		size_t lp = lomuto_partition(array, size, low, top);
+		size_t lp = lomuto_partition(array, size, down, top);
 
 		quicksort(array, size, down, lp - 1);
 		quicksort(array, size, lp + 1, top);
